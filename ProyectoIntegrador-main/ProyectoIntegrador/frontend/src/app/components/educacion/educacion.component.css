@@ -1,0 +1,15 @@
+.row{
+    padding: 50px;
+}
+div{
+    background-color:#F5DA81;
+}
+button{
+    display: inline;
+}
+h1, h3{
+    display: inline-flex;
+}
+#botones{
+    float: right;
+}

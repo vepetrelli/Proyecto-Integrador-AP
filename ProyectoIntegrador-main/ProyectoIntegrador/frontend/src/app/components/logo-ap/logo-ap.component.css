@@ -1,0 +1,57 @@
+.row{
+    background-color: #ede9e9;
+    position:fixed;
+    width: 103%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.redes{
+    margin-right: 5px;
+}
+.btn{
+    border-width: medium;
+}
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 50px;
+}
+#linkedin{
+    margin-right: 5px;
+}
+#github{
+    margin-right: 5px;
+}
+#instagram{
+    margin-right: 5px;
+}
+#facebook{
+    margin-right: 5px;
+}
+#gmail{
+    margin-right: 5px;
+}
+/* para vista de celular */
+@media(max-width: 575px){
+    .row{
+        position: relative;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 5px;
+    }
+}

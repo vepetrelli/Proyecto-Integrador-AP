@@ -1,0 +1,23 @@
+<div class="container" *ngIf="titulo">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="profesion">Profesion</label>
+                    <input type="text" class="form-control" id="profesion" name="profesion" [(ngModel)]="titulo.profesion" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción personal</label>
+                    <input type="text" class="form-control" id="descripcion" name="descripcion" [(ngModel)]="titulo.descripcion" required>
+                </div>
+                <div class="form-group">
+                    <label for="img">URL imagen</label>
+                    <input type="text" class="form-control" id="img" name="img" [(ngModel)]="titulo.img" required>
+                </div>
+                <button class="btn btn-primary">
+                    Editar
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

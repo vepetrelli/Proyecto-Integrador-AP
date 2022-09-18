@@ -1,0 +1,40 @@
+html,
+body,
+.card {
+  height: 100vh;
+  background-color: #000000;
+}
+.intro{
+    background-color: #000000;
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+  html,
+  body,
+  .intro {
+    height: 550px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .intro {
+    height: 550px;
+  }
+}
+
+a.link {
+  font-size: .875rem;
+  color: #F5DA81;
+}
+a.link:hover, 
+a.link:active {
+  color: #F5DA81;
+}
+.form-label{
+    color: #F5DA81;
+}
+.btn {
+    color: #F5DA81;
+}

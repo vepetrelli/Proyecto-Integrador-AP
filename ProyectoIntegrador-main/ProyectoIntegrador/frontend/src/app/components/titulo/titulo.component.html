@@ -1,0 +1,18 @@
+<div class="row">
+    <h1>Acerca de mí</h1>
+    <div class="col-lg-1" ></div>
+    <div class="col-lg-12">
+    <table class="table table-borderless">
+        <tbody>
+            <tr *ngFor="let Titulo of tit">
+                <td><img src="{{Titulo.img}}" class="img-fluid" id="fotoperfil" style="width:100vw; height:30vh; border-radius: 25%; border: 3px solid black;"></td>
+                <td><h4 id="profesion">{{Titulo.profesion}}</h4></td>
+                <td> <h5 id="descripcion">{{Titulo.descripcion}}</h5></td>
+
+        <td *ngIf="isLogged"><button class="btn btn-light" routerLink="/update/{{Titulo.id}}"><i class="bi bi-pencil-fill"></i>EDITAR</button></td>
+            </tr>
+        </tbody>
+
+    </table>
+    </div>
+</div>

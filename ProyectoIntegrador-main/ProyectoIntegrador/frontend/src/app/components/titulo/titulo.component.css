@@ -1,0 +1,11 @@
+.row{
+    padding: 50px;
+    background-color:#F5DA81;
+}
+button{
+    display: inline;
+    float: right;
+}
+.img{
+    box-shadow: 10px 10px 30px grey;
+}
