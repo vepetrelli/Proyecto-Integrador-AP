@@ -8,7 +8,7 @@ import { Titulo } from '../model/titulo';
 })
 
 export class TituloService {
-  URL = 'http://localhost:8080/titulo/';
+  URL = 'https://proyectointegradorap.herokuapp.com/titulo/';
 
   constructor(private httpClient: HttpClient) {}
    

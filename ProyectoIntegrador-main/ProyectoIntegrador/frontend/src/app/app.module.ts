@@ -13,7 +13,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -66,7 +66,8 @@ import { NewtituloComponent } from './components/titulo/newtitulo.component';
     ReactiveFormsModule
   ],
   providers: [
-    interceptorProvider
+    interceptorProvider,
+    HttpClient,
   ],
   bootstrap: [AppComponent]
 })
