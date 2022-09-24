@@ -3,11 +3,13 @@ import { Router } from '@angular/router';
 import { Titulo } from 'src/app/model/titulo';
 import { TituloService } from 'src/app/service/titulo.service';
 
+
 @Component({
   selector: 'app-newtitulo',
   templateUrl: './newtitulo.component.html',
-  styleUrls: ['./newtitulo.component.css']
+  styleUrls: ['./newtitulo.component.css'],  
 })
+
 export class NewtituloComponent implements OnInit {
   profesion: string;
   descripcion: string;

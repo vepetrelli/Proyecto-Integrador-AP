@@ -1,7 +1,7 @@
 <div class="container" *ngIf="titulo">
     <div class="row">
         <div>
-            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+            <form (ngSubmit)="onUpdate()" novalidate ngForm#f="ngForm">
                 <div class="form-group">
                     <label for="profesion">Profesion</label>
                     <input type="text" class="form-control" id="profesion" name="profesion" [(ngModel)]="titulo.profesion" required>
