@@ -46,22 +46,22 @@ public class CTitulo {
     if(!sTitulo.existsById(id)){
     return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.NOT_FOUND);
     } sTitulo.delete(id);
-    return new ResponseEntity(new Mensaje("Educacion eliminada"), HttpStatus.OK);
+    return new ResponseEntity(new Mensaje("Descripcion eliminada"), HttpStatus.OK);
     }
     
     @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody dtoTitulo dtotitulo){
     if(StringUtils.isBlank(dtotitulo.getProfesion())){
-    return new ResponseEntity(new Mensaje("el nombre es obligatorio"), HttpStatus.BAD_REQUEST);
+    return new ResponseEntity(new Mensaje("la profesion es obligatoria"), HttpStatus.BAD_REQUEST);
     }
     if(sTitulo.existsByProfesion(dtotitulo.getProfesion())){
-    return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
+    return new ResponseEntity(new Mensaje("Esa profesion ya existe"), HttpStatus.BAD_REQUEST);
     }
     Titulo titulo = new Titulo(
             dtotitulo.getProfesion(),dtotitulo.getDescripcion(), dtotitulo.getImg()
     );
     sTitulo.save(titulo);
-    return new ResponseEntity(new Mensaje("Educacion creada"), HttpStatus.OK);
+    return new ResponseEntity(new Mensaje("Descripcion creada"), HttpStatus.OK);
     }
     
     @PutMapping("/update/{id}")
@@ -70,7 +70,7 @@ public class CTitulo {
     return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.NOT_FOUND);
     }
     if(sTitulo.existsByProfesion(dtotitulo.getProfesion()) && sTitulo.getByProfesion(dtotitulo.getProfesion()).get().getId() !=id){
-    return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
+    return new ResponseEntity(new Mensaje("Esa profesion ya existe"), HttpStatus.BAD_REQUEST);
     }
     if (StringUtils.isBlank(dtotitulo.getProfesion())){
     return new ResponseEntity(new Mensaje("El campo no puede estar vacío"), HttpStatus.BAD_REQUEST);
@@ -82,6 +82,6 @@ public class CTitulo {
     titulo.setImg(dtotitulo.getImg());
     
     sTitulo.save(titulo);
-    return new ResponseEntity(new Mensaje("Educacion actualizada"), HttpStatus.OK);
+    return new ResponseEntity(new Mensaje("Descripcion actualizada"), HttpStatus.OK);
     }
 }
