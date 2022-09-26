@@ -1,6 +1,10 @@
 <div class="row">
     <h1>Acerca de mí</h1>
-    <div class="col-lg-1" ></div>
+    <div class="col-lg-3">
+        <button type="button" class="btn btn-dark" routerLink="/nuevo" *ngIf="isLogged">
+            Agregar Descripción
+        </button>
+    </div>
     <div class="col-lg-12">
     <table class="table table-borderless">
         <tbody>

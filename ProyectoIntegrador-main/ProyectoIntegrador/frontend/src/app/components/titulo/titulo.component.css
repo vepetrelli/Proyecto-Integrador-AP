@@ -1,5 +1,7 @@
 .row{
     padding: 50px;
+}
+div{
     background-color:#F5DA81;
 }
 button{
@@ -8,4 +10,7 @@ button{
 }
 .img{
     box-shadow: 10px 10px 30px grey;
+}
+h1, h4, h5{
+    display: inline-flex;
 }
