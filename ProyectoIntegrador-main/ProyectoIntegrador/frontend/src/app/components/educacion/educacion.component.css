@@ -20,6 +20,8 @@ h1, h3{
       flex-direction: column;
     }
     #botones{
-        flex-direction: column
+        flex-direction: column;
+        align-items: center;
+        display: flex;
     }
   }
