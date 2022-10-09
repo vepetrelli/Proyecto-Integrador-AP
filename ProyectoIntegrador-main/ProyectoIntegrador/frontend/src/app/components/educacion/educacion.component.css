@@ -14,10 +14,10 @@ h1, h3{
     float: right;
 }
 
-@media (min-width: 500px) and (max-width: 220px) {
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
     table,
     .row {
-        width: 220px;
+        width: 500px;
     }
   }
   
