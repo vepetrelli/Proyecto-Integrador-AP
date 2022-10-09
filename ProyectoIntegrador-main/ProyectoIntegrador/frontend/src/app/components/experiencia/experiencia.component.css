@@ -13,3 +13,20 @@ h1, h3{
 #botones{
     float: right;
 }
+/* para vista de celular */
+@media(max-width: 575px){
+    .row{
+        position: relative;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 5px;
+    }
+}
