@@ -2,3 +2,8 @@ body{
     width: 99vw;
     background-color:#F5DA81;
 }
+@media (max-width: 700px) {
+    body {   
+      flex-direction: column;
+    }
+  }
