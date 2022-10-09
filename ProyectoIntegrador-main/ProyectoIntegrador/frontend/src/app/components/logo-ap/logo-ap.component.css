@@ -39,7 +39,7 @@ img{
     margin-right: 5px;
 }
 /* para vista de celular */
-@media(max-width: 575px){
+@media(max-width: 500px){
     .row{
         position: relative;
     }
