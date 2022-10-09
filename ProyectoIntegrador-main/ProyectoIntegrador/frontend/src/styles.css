@@ -1,10 +1,10 @@
 body{
-    width: 99%;
+    width: 99vw;
     background-color:#F5DA81;
 }
 @media (min-width: 500px) and (max-width: 850px)  {
     body{
-    width: 140%;
+    width: 140vw;
     background-color:#F5DA81;
 }
 }
