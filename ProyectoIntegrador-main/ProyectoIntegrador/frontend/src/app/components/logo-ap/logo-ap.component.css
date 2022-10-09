@@ -1,7 +1,7 @@
 .row{
     background-color: #ede9e9;
     position:fixed;
-    width: 103%;
+    width: 100vw;
 }
 .container{
     display: flex;

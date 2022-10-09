@@ -2,9 +2,3 @@ body{
     width: 99vw;
     background-color:#F5DA81;
 }
-@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)  {
-    body{
-    width: 140vw;
-    background-color:#F5DA81;
-}
-}
