@@ -16,9 +16,10 @@ h1, h3{
 #botones{
     float: right;
 }
-@media (min-width: 500px) and (max-width: 850px)  {
+@media (min-width: 502px) and (max-width: 850px)  {
     table,
+    button,
     .row {
-        width: 500px;
+        width: 502px;
     }
 }
