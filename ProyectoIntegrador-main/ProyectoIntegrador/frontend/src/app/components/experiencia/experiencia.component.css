@@ -16,7 +16,7 @@ h1, h3{
 #botones{
     float: right;
 }
-@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+@media (min-width: 500px) and (max-width: 850px)  {
     table,
     .row {
         width: 500px;
