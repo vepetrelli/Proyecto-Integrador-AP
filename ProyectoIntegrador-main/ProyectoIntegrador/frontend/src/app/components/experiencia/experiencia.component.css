@@ -12,3 +12,11 @@ h1, h3{
 #botones{
     float: right;
 }
+@media (max-width: 700px) {
+    .table {   
+      flex-direction: column;
+    }
+    #botones{
+        flex-direction: column
+    }
+  }
