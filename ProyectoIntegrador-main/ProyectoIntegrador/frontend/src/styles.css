@@ -1,10 +1,9 @@
 body{
-    width: 99vw;
+    width: 99%;
     background-color:#F5DA81;
 }
 @media (max-width: 700px) {
     body {   
-      width: 100vw;
-      flex-direction: column;
+      width: 135%;
     }
   }
