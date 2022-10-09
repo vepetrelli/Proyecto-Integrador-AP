@@ -4,6 +4,7 @@ body{
 }
 @media (max-width: 700px) {
     body {   
+      width: 100vw;
       flex-direction: column;
     }
   }
