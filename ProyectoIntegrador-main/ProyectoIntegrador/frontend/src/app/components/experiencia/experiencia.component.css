@@ -1,10 +1,8 @@
 .row{
     padding: 50px;
-}
-div{
+    width: 103%;
     background-color:#F5DA81;
 }
-
 button{
     display: inline;
 }
