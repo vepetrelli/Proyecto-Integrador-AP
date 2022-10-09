@@ -13,3 +13,11 @@ h1, h3{
 #botones{
     float: right;
 }
+
+@media (min-width: 550px) and (max-width: 750px) {
+    table,
+    .row {
+        width: 750px;
+    }
+  }
+  
