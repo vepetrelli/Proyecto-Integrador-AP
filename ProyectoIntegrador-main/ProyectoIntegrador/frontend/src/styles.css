@@ -4,7 +4,7 @@ body{
 }
 @media (min-width: 500px) and (max-width: 850px)  {
     body{
-    width: 135%;
+    width: 140%;
     background-color:#F5DA81;
 }
 }
