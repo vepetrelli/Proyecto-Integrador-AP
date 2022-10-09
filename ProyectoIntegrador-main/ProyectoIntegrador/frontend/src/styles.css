@@ -1,9 +1,0 @@
-body{
-    width: 100vw;
-    background-color:#F5DA81;
-}
-@media (max-width: 700px) {
-    body {   
-      width: 135%;
-    }
-  }
