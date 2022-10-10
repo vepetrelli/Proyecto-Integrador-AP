@@ -21,7 +21,7 @@ h1, h3{
     }
     #botones{
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         display: flex;
     }
   }
