@@ -42,7 +42,7 @@ img{
 @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
     .row{
         position: relative;
-        width: 120vw;
+        width: 130vw;
     }
     .container{
         flex-direction: column;
