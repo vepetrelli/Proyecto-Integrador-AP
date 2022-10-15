@@ -3,6 +3,9 @@
     width: 100vw;
     background-color:#F5DA81;
 }
+.table{
+    flex-wrap: wrap;
+}
 button{
     display: inline;
 }
