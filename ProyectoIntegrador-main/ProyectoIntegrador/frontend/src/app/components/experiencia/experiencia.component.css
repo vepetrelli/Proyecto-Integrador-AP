@@ -15,6 +15,7 @@ h1, h3{
 @media (max-width: 700px) {
     .table {   
       flex-direction: column;
+      display: flex;
     }
     #botones{
         flex-direction: column;
