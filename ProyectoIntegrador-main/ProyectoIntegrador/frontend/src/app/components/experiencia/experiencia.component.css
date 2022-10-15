@@ -16,6 +16,7 @@ h1, h3{
     table {   
       flex-direction: column;
       display: flex;
+      flex-wrap: wrap;
     }
     #botones{
         flex-direction: column;
