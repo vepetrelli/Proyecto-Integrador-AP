@@ -1,6 +1,6 @@
 .row{
     background-color: #f5cc81;
-    width: 120vw;
+    width: 100vw;
 }
 footer{
     font-size: 14px;
@@ -8,5 +8,10 @@ footer{
     flex-direction: column;
     text-align: center;
     box-shadow: 2px -2px 5px grey;
-    width: 120vw;
+    width: 100vw;
+}
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+    .row{
+        width: 130vw;
+    }
 }
