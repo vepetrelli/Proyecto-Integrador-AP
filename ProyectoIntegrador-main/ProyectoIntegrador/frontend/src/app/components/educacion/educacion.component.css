@@ -16,7 +16,7 @@ h1, h3{
     float: right;
 }
 @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
-    tbody {   
+    tbody, tr {   
         display: flex;
         flex-flow: row wrap;
     }
