@@ -39,7 +39,7 @@ img{
     margin-right: 5px;
 }
 /* para vista de celular */
-@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+@media only screen and (min-width: 200px) and (max-width: 860px) {
     .row{
         position: relative;
         width: 130vw;
